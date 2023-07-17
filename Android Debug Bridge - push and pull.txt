@@ -1,0 +1,22 @@
+1) executar cmd como admin
+
+2) cd C:\Program Files (x86)\Android\android-sdk\platform-tools
+
+3) adb.exe root (caso necessário)
+
+4) adb.exe shell ls /data/user/0/com.pedidos.app/files/.local/share/
+
+5) adb.exe pull /data/user/0/com.pedidos.app/files/.local/share/bd.db3 "C:\Temp"
+
+https://www.thecustomdroid.com/adb-push-pull-commands/
+
+How to Use ADB Push to Transfer Files from PC to Android Device
+adb push <local file> <remote location>
+
+How to Use ADB Pull to Transfer Files from Android Device to PC
+adb pull <remote file> <local location>
+
+
+
+
+adb logcat -v color

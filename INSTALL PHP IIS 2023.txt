@@ -1,0 +1,7 @@
+install php iis 2023
+
+https://learn.microsoft.com/en-us/answers/questions/1161448/how-to-install-php-on-iis-now-webpi-is-retired
+
+https://learn.microsoft.com/en-us/iis/application-frameworks/install-and-configure-php-on-iis/install-and-configure-php#zip-file-installation
+
+Documentos Padrões index.php

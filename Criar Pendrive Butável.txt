@@ -1,0 +1,11 @@
+ABRIR CMD COMO ADMIN:
+
+diskpart
+List Disk
+Select Disk 2
+Clean
+Create partition primary
+Active
+Format fs=fat32 quick
+Assign
+Exit...

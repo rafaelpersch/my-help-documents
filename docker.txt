@@ -1,0 +1,7 @@
+Install Postgre in Docker
+docker pull postgres:14.10
+docker run --name mypostgres1410 -p 5432:5432 -v /tmp/database:/var/lib/postgresql/data -e POSTGRES_PASSWORD=[password] -d postgres:14.10
+docker run --name mypostgres1410 -p 5432:5432 -v /home/pexe/volumes/postgres1410:/var/lib/postgresql/data -e POSTGRES_PASSWORD=[password] -d postgres:14.10
+docker start mypostgres1410
+docker stop mypostgres1410
+docker exec -t your-db-container pg_dumpall -c -U postgres > dump_`date +%Y-%m-%d"_"%H_%M_%S`.sql

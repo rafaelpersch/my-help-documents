@@ -1,0 +1,3 @@
+link simbólico
+mklink /D "C:\Users\SeuUsuário\Desktop\Música" "C:\Música"
+E pronto! Agora, você terá acesso direto à sua coleção de músicas sempre que acessar sua área de trabalho.

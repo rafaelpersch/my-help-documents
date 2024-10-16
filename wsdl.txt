@@ -1,0 +1,3 @@
+wsdl /l:C# /out:C:\OutPutClassName.cs C:\myWebService.wsdl
+ou
+wsdl /l:C# /out:C:\OutPutClassName.cs "URL"

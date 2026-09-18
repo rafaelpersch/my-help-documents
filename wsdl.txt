@@ -1,3 +1,5 @@
 wsdl /l:C# /out:C:\OutPutClassName.cs C:\myWebService.wsdl
-ou
 wsdl /l:C# /out:C:\OutPutClassName.cs "URL"
+
+em .net core:
+dotnet-svcutil  URL?wsdl
